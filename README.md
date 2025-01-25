@@ -1,1 +1,5 @@
-This is my personal portfolio showcasing my skills, projects, and accomplishments using HTML and CSS. Check it out live through the link below. Feel free to explore and connect!
+**My Portfolio**
+Welcome to my personal portfolio! It highlights my skills, projects, and achievements built with HTML and CSS. Feel free to explore my work and connect with me.
+
+_Live Demo_ :  https://basanthreddya.github.io/portfolio-
+
