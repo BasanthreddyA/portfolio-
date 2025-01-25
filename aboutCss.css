@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    background-color: #7CB9E8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 50px;
+}
+
+#logosec {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.design {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.design:hover {
+    color: white;
+    background-color: #00308F;
+    border-radius: 5px;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    padding-top: 70px;
+    height: calc(100vh - 160px);
+    margin: 0;
+}
+
+#image-section {
+    width: 50%;
+    background: url('./images/profile.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#sec202 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #7CB9E8;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#footer {
+    background-color: #72A0C1;
+    padding: 0px 0;
+}
+
+#icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #ff9800;
+}
+
+#bottom-footer {
+    background-color: #002D62;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+}
